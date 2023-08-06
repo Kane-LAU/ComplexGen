@@ -26,7 +26,7 @@ from typing import Tuple, Optional
 
 import torch
 from torch import Tensor
-from torch.nn.modules.linear import _LinearWithBias
+from torch.nn.modules.linear import NonDynamicallyQuantizableLinear as _LinearWithBias
 from torch.nn.init import xavier_uniform_
 from torch.nn.init import constant_
 from torch.nn.init import xavier_normal_
